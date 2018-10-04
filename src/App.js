@@ -10,6 +10,10 @@ const TodoComponent = styled.div`
   min-height: 200px;
   margin: 30px auto;
   box-sizing: border-box;
+
+  &:hover {
+    background-color: yellow;
+  }
 `;
 
 const BasicNotification = styled.p`
@@ -18,6 +22,7 @@ const BasicNotification = styled.p`
   margin: 5px;
   color: black;
 `;
+
 const SuccessNotification = styled(BasicNotification)`
   background: lightgreen;
 `;
