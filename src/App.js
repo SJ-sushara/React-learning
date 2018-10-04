@@ -10,7 +10,7 @@ const TodoComponent = styled.div`
   min-height: 200px;
   margin: 30px auto;
   box-sizing: border-box;
-
+  cursor: pointer;
   transition: all 0.3s ease-in;
   &:hover {
     background-color: yellow;
