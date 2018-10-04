@@ -11,6 +11,7 @@ const TodoComponent = styled.div`
   margin: 30px auto;
   box-sizing: border-box;
 
+  transition: all 0.3s ease-in;
   &:hover {
     background-color: yellow;
   }
